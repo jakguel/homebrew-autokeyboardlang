@@ -1,15 +1,15 @@
 class Autokeyboardlang < Formula
   desc "Automatic keyboard input language switching for macOS"
   homepage "https://github.com/jakguel/autokeyboardlang"
-  version "2.1.6"
+  version "2.1.7"
 
   on_arm do
     if MacOS.version >= :sequoia
       url "https://github.com/jakguel/autokeyboardlang/releases/download/v#{version}/autokeyboardlang-v#{version}.arm64_tahoe.tar.gz"
-      sha256 "0043c7a982871ae4193f141e1cfd10c8b11159d243313b9e9c27439b22ca3bb6"
+      sha256 "a872af6079b3670dda42400aeb156de4746771028193c1efc9ca3208e666555c"
     else
       url "https://github.com/jakguel/autokeyboardlang/releases/download/v#{version}/autokeyboardlang-v#{version}.arm64_sequoia.tar.gz"
-      sha256 "79e31e0a22673993b420278074ccd862a39cb158ea6d13c62ab491d543275189"
+      sha256 "c8c4c07b9a2eb5a1cdb9af8d73339634482060952a9a1cc7cc5e9470f00e1de0"
     end
   end
 
