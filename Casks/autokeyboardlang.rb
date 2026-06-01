@@ -1,8 +1,8 @@
 cask "autokeyboardlang" do
-  version "2.6.0"
-  sha256 "d856e08a0f664461db76b6d8791200b37991a34c10badf04a0f78acd971bfc12"
+  version "2.7.0"
+  sha256 "8afa654f281ff4aef88deefb0c189eeaac85338339145115785ebcac27e59d47"
 
-  url "https://github.com/jakguel/autokeyboardlang/releases/download/v2.6.0/autokeyboardlang-v2.6.0.zip"
+  url "https://github.com/jakguel/autokeyboardlang/releases/download/v2.7.0/autokeyboardlang-v2.7.0.zip"
   name "autokeyboardlang"
   desc "Automatic keyboard input language switching for macOS"
   homepage "https://github.com/jakguel/autokeyboardlang"
